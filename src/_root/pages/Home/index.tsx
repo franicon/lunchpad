@@ -1,7 +1,14 @@
+import { Achievement, Hero, Partners, Pillars, Teams } from "./components"
 
 export const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <Hero/>
+      <Partners/>
+      <Achievement/>
+      <Pillars/>
+      <Teams/>
+    </>
   )
 }
 
