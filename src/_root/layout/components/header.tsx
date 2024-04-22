@@ -46,7 +46,11 @@ export const Header = () => {
           to={"/"}
           className="inline-block relative top-2 lg:top-1 mr-16 ml-4 h-12"
         >
-          <img src="./images/fleamint-logo.png" alt="fleamint logo" className="h-8 md:h-auto" />
+          <img
+            src="./images/fleamint-logo.png"
+            alt="fleamint logo"
+            className="h-8 md:h-auto"
+          />
         </Link>
       </div>
 
@@ -70,12 +74,12 @@ export const Header = () => {
           </button>
         </div>
       </div>
-      <div className="user-auth grid grid-cols-2 items-center">
-          <button className="block md:inline-block">Log In</button>
-          <button className="bg-emerald-400 px-4 py-2 rounded-md text-black font-semibold block md:inline-block w-full md:w-auto">
-            Sign up
-          </button>
-        </div>
+      <div className="user-auth grid grid-cols-2 items-center md:hidden">
+        <button className="block md:inline-block">Log In</button>
+        <button className="bg-emerald-400 px-4 py-2 rounded-md text-black font-semibold block md:inline-block w-full md:w-auto">
+          Sign up
+        </button>
+      </div>
     </div>
   );
 };
