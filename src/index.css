@@ -3,14 +3,49 @@
 @tailwind utilities;
 
 @layer base {
-    body{
-        @apply bg-[#000000] text-white;
-    }
+  body {
+    @apply bg-[#000000] text-white;
+  }
 }
 
-@layer components{
-    .btn-gradient{
-        @apply bg-gradient-to-r from-violet-300 to-emerald-400  px-8 py-4 rounded-md text-black font-semibold
-    }
+@layer components {
+  .btn-gradient {
+    @apply bg-gradient-to-r from-violet-300 to-emerald-400  px-8 md:py-4 py-3 rounded-md text-black font-semibold;
+  }
+
+  .hero {
+    background-image: url("/public/images/hero-pattern.png"),
+      url("/public/images/gradient.png");
+    background-position: center, right top;
+    background-repeat: no-repeat;
+    background-size: cover, contain contain;
+  }
+
+  .embla {
+    overflow: hidden;
+  }
+  .embla__container {
+    display: flex;
+    column-gap: 60px;
+  }
+  .embla__slide {
+    flex: 0 0 calc(100% / 7);
+    min-width: 0;
+    @apply border border-cyan-200;
+  }
 }
 
+@media (max-width: 1200px) {
+    .embla__container {
+        display: flex;
+        column-gap: 30px;
+      }
+    .embla__slide {
+      flex: 0 0 calc(100% / 4);
+    }
+  }
+  @media (max-width: 800px) {
+    .embla__slide {
+      flex: 0 0 calc(100% / 2);
+    }
+  }

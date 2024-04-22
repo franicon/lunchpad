@@ -12,18 +12,18 @@ export const Achievement = () => {
                   ecosystem
                 </p>
               </div>
-              <div className="grid grid-cols-3">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-2">
                 <div className="flex flex-col gap-y-4">
                   <h3 className="font-bold md:text-3xl text-xl">$500 Million</h3>
-                  <small className="text-gray-500">In assets</small>
+                  <p className="text-gray-500">In assets</p>
                 </div>
                 <div className="flex flex-col gap-y-4">
                   <h3 className="font-bold md:text-3xl text-xltext-3xl">11</h3>
-                  <small className="text-gray-500">Projects</small>
+                  <p className="text-gray-500">Projects</p>
                 </div>
                 <div className="flex flex-col gap-y-4">
                   <h3 className="font-bold md:text-3xl text-xl">10+</h3>
-                  <small className="text-gray-500">Global Partners </small>
+                  <p className="text-gray-500">Global Partners </p>
                 </div>
               </div>
             </div>

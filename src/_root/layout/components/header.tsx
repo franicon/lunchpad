@@ -11,7 +11,11 @@ export const Header = () => {
       <Link to={"/"} className="block relative top-1 mr-16 h-12">
         <img src="./images/fleamint-logo.png" alt="fleamint logo" />
       </Link>
-      <div className={`md:flex justify-between items-center w-full absolute top-full left-0 md:relative transition-all ${menuOpen ? 'max-h-[800px]': 'max-h-0'} md:max-h-none overflow-hidden`}>
+      <div
+        className={`md:flex justify-between items-center w-full absolute top-full left-0 md:relative transition-all ${
+          menuOpen ? "max-h-[800px]" : "max-h-0"
+        } md:max-h-none overflow-hidden bg-[#000000] md:bg-[initial] shadow-lg md:shadow-none z-10`}
+      >
         <div className="navigation flex flex-col md:flex-row gap-6 md:gap-8 p-4 md:p-0">
           <Link to={"/"}>Home</Link>
           <Link to={"#"}>NFT Pass</Link>
@@ -28,20 +32,37 @@ export const Header = () => {
         </div>
       </div>
       <button className="menu md:hidden" onClick={toggleMenu}>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          strokeWidth={1.5}
-          stroke="currentColor"
-          className="w-12 h-12"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-          />
-        </svg>
+        {menuOpen ? (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-10 h-10"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        ) : (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            strokeWidth={1.5}
+            stroke="currentColor"
+            className="w-10 h-10"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+        )}
       </button>
     </div>
   );
