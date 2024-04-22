@@ -15,7 +15,7 @@ export const Hero = () => {
           </div>
         </div>
         <div className="basis-5/12 order-first lg:order-last">
-          <img src="/images/hero-img.png" alt="" className="lg:ml-auto scale-110 md:scale-150 relative  lg:-left-0 top-12" />
+          <img src="/images/hero-img.png" alt="" className="lg:ml-auto scale-110 md:scale-125 relative  lg:-left-0 top-12" />
           <img src="/images/gradient.png" alt="" className="absolute top-0 right-0 z-10" />
         </div>
       </div>
