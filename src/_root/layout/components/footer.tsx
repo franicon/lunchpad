@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <section className="bg-gradient-to-b from-[#000000] to-[#050918]">
-      <div className="px-4 py-12 lg:p-24">
+      <div className="px-4 py-12 lg:p-24 lg:w-10/12 mx-auto">
         <div className="flex flex-col lg:flex-row gap-12 lg:gap-6">
           <div className="basis-4/12">
             <div className="md:w-8/12">

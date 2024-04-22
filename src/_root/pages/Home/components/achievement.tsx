@@ -1,6 +1,6 @@
 export const Achievement = () => {
   return (
-    <section className="md:p-24 p-4 py-12 text-center md:text-left">
+    <section className="md:p-24 p-4 py-12 text-center md:text-left lg:w-10/12 mx-auto">
       <div className="md:px-20 px-4 py-12 bg-gradient-to-l from-blue-500/20 to-transparent  border border-slate-800 rounded-2xl">
         <div className="flex flex-col lg:flex-row justify-between gap-16">
           <div className="md:basis-8/12 basis-full">

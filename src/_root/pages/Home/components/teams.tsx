@@ -66,7 +66,7 @@ export const Teams = () => {
   const [ceo, ...rest] = teams;
   return (
     <section className="px-4 py-12 lg:p-24 bg-[#050918]">
-      <div className="flex flex-col gap-y-32">
+      <div className="flex flex-col gap-y-32 lg:w-10/12 mx-auto">
         <div className="text-center mb-20 lg:mb-0">
           <h2 className="capitalize relative inline-block text-3xl before:absolute before:inline-block before:left-0 before:top-full before:w-full before:h-1 before:bg-blue-500">
             our team

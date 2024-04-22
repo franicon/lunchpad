@@ -14,11 +14,10 @@
   }
 
   .hero {
-    background-image: url("/public/images/hero-pattern.png"),
-      url("/public/images/gradient.png");
+    background-image: url("/public/images/hero-pattern.png");
     background-position: center, right top;
     background-repeat: no-repeat;
-    background-size: cover, contain contain;
+    background-size: cover;
   }
 
   .embla {
@@ -29,23 +28,23 @@
     column-gap: 60px;
   }
   .embla__slide {
-    flex: 0 0 calc(100% / 7);
+    flex: 0 0 calc(100% / 10);
     min-width: 0;
-    @apply border border-cyan-200;
+    @apply border border-cyan-200 rounded-lg overflow-hidden;
   }
 }
 
 @media (max-width: 1200px) {
-    .embla__container {
-        display: flex;
-        column-gap: 30px;
-      }
-    .embla__slide {
-      flex: 0 0 calc(100% / 4);
-    }
+  .embla__container {
+    display: flex;
+    column-gap: 30px;
   }
-  @media (max-width: 800px) {
-    .embla__slide {
-      flex: 0 0 calc(100% / 2);
-    }
+  .embla__slide {
+    flex: 0 0 calc(100% / 4);
   }
+}
+@media (max-width: 800px) {
+  .embla__slide {
+    flex: 0 0 calc(100% / 2);
+  }
+}

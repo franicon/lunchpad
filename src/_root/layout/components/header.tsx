@@ -8,9 +8,48 @@ export const Header = () => {
   };
   return (
     <div className="flex items-center justify-between px-4 lg:px-24 py-4 md:py-6 bg-[#0D0D0D] w-full relative">
-      <Link to={"/"} className="block relative top-1 mr-16 h-12">
-        <img src="./images/fleamint-logo.png" alt="fleamint logo" />
-      </Link>
+      <div className="flex">
+        <button className="menu md:hidden" onClick={toggleMenu}>
+          {menuOpen ? (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-10 h-10"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M6 18 18 6M6 6l12 12"
+              />
+            </svg>
+          ) : (
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="w-10 h-10"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          )}
+        </button>
+        <Link
+          to={"/"}
+          className="inline-block relative top-2 lg:top-1 mr-16 ml-4 h-12"
+        >
+          <img src="./images/fleamint-logo.png" alt="fleamint logo" className="h-8 md:h-auto" />
+        </Link>
+      </div>
+
       <div
         className={`md:flex justify-between items-center w-full absolute top-full left-0 md:relative transition-all ${
           menuOpen ? "max-h-[800px]" : "max-h-0"
@@ -31,39 +70,12 @@ export const Header = () => {
           </button>
         </div>
       </div>
-      <button className="menu md:hidden" onClick={toggleMenu}>
-        {menuOpen ? (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-10 h-10"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M6 18 18 6M6 6l12 12"
-            />
-          </svg>
-        ) : (
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            strokeWidth={1.5}
-            stroke="currentColor"
-            className="w-10 h-10"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
-            />
-          </svg>
-        )}
-      </button>
+      <div className="user-auth grid grid-cols-2 items-center">
+          <button className="block md:inline-block">Log In</button>
+          <button className="bg-emerald-400 px-4 py-2 rounded-md text-black font-semibold block md:inline-block w-full md:w-auto">
+            Sign up
+          </button>
+        </div>
     </div>
   );
 };
