@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <section className="bg-gradient-to-b from-[#000000] to-[#050918]">
       <div className="px-4 py-12 lg:p-24 lg:w-10/12 mx-auto">
-        <div className="flex flex-col lg:flex-row gap-12 lg:gap-6">
+        <div className="flex flex-col lg:flex-row lg:gap-6 justify-between">
           <div className="basis-4/12">
             <div className="md:w-8/12">
               <img src="/images/footer-logo.png" alt="logo" />
@@ -16,7 +16,7 @@ export const Footer = () => {
           </div>
           <div className="basis-8/12">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-12">
-              <div className="inline-flex  flex-col gap-y-6">
+              {/* <div className="inline-flex  flex-col gap-y-6">
                 <p className="font-bold capitalize">about us</p>
                 <Link
                   to={"#"}
@@ -96,7 +96,7 @@ export const Footer = () => {
                 >
                   community
                 </Link>
-              </div>
+              </div> */}
               <div className="inline-flex  flex-col gap-y-6">
                 <p className="font-bold capitalize">follow us</p>
                 <div className="flex gap-6 items-center">
