@@ -1,5 +1,4 @@
-import useEmblaCarousel from "embla-carousel-react";
-import AutoScroll from 'embla-carousel-auto-scroll'
+import Marquee from "react-fast-marquee";
 
 type TPartner = {
   imageUrl: string;
@@ -26,30 +25,25 @@ const partnersArr: TPartner[] = [
 ];
 
 export const Partners = () => {
-  const [emblaRef] = useEmblaCarousel({loop: true,align:"start"},[AutoScroll()]);
 
   return (
-    <section className="p-4 py-12 lg:p-0">
+    <section className="p-4 py-12 lg:p-0 mt-24">
       <div className="flex flex-col lg:gap-y-24 gap-y-16">
         <div className="text-center">
           <h2 className="capitalize relative inline-block text-3xl before:absolute before:inline-block before:left-0 before:top-full before:w-full before:h-1 before:bg-blue-500">
             our partners
           </h2>
         </div>
-        <div className="embla" ref={emblaRef}>
-          <div className="embla__container pr-7">
-            {partnersArr.map((partner,index) => (
-              <div className="embla__slide" key={partner.imageUrl+index}>
-                <div
-                  className={`p-4 lg:p-6 lg:py-12 flex items-center justify-center h-full lg:h-40`}
-                  style={{ backgroundColor: partner.color }}
-                >
-                  <img src={partner.imageUrl} alt="partner" className="w-24" />
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        <Marquee pauseOnHover={true}>
+          {partnersArr.map((partner, index) => (
+            <div key={'partners' + index}
+              className={`p-4 m-3 lg:m-6 lg:p-6 lg:py-12 flex items-center justify-center h-32 w-32 lg:w-40 lg:h-40 border border-cyan-300 rounded-md`}
+              style={{ backgroundColor: partner.color }}
+            >
+              <img src={partner.imageUrl} alt="partner" className="w-24" />
+            </div>
+          ))}
+        </Marquee>
       </div>
     </section>
   );

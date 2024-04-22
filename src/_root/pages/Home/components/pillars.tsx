@@ -10,7 +10,7 @@ export const Pillars = () => {
         <div className="content lg:w-10/12 mx-auto flex flex-col gap-y-32">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="/images/membership.png" alt="membership" className="w-6/12 md:w-auto mx-auto md:mx-[initial]" />
+              <img src="/images/membership.png" alt="membership" className="w-8/12 md:w-auto mx-auto md:mx-[initial]" />
             </div>
             <div className="flex flex-col gap-y-4">
               <h2 className="capitalize relative text-xl md:text-3xl">Memberships</h2>
@@ -38,13 +38,13 @@ export const Pillars = () => {
               <img
                 src="/images/blockchain.png"
                 alt="blockchain"
-                className="w-4/12 md:w-auto md:ml-auto mx-auto md:mx-[initial]"
+                className="w-6/12 md:w-auto md:ml-auto mx-auto md:mx-[initial]"
               />
             </div>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
-              <img src="/images/venture.png" alt="venture" className="w-6/12 md:w-auto mx-auto md:mx-[initial]" />
+              <img src="/images/venture.png" alt="venture" className="w-8/12 md:w-auto mx-auto md:mx-[initial]" />
             </div>
             <div className="flex flex-col gap-y-4">
               <h2 className="capitalize relative text-xl md:text-3xl">

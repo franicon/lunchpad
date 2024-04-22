@@ -77,7 +77,7 @@ export const Teams = () => {
           <div className="lg:basis-3/12 basis-full">
             <Team team={ceo} size="large" />
           </div>
-          <div className="lg:basis-8/12 basis-full">
+          <div className="lg:basis-8/12 basis-10/12 w-10/12 lg:w-auto mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 lg:gap-y-36 gap-y-32">
               {rest.map((team) => (
                 <Team key={team.name} team={team} size="small" />
