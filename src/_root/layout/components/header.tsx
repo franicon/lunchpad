@@ -67,19 +67,19 @@ export const Header = () => {
           <Link to={"#"}>Community</Link>
           <Link to={"#"}>Venture</Link> */}
         </div>
-        <div className="user-auth space-y-8 md:space-y-0 md:space-x-8 space-x-0 md:mt-0 p-4 md:p-0 hidden md:block">
+{/*         <div className="user-auth space-y-8 md:space-y-0 md:space-x-8 space-x-0 md:mt-0 p-4 md:p-0 hidden md:block">
           <button className="block md:inline-block">Log In</button>
           <button className="bg-emerald-400 px-8 py-2 rounded-md text-black font-semibold block md:inline-block w-full md:w-auto">
             Sign up
           </button>
-        </div>
+        </div> */}
       </div>
-      <div className="user-auth grid grid-cols-2 items-center md:hidden">
+{/*       <div className="user-auth grid grid-cols-2 items-center md:hidden">
         <button className="block md:inline-block">Log In</button>
         <button className="bg-emerald-400 px-4 py-2 rounded-md text-black font-semibold block md:inline-block w-full md:w-auto">
           Sign up
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
