@@ -4,7 +4,7 @@ export const Hero = () => {
   return (
     <section className="hero px-4 lg:px-36 py-12 md:h-[80vh] relative pb-12 text-center lg:text-left">
       <div className="flex flex-col lg:flex-row gap-20 lg:gap-12 items-center h-full justify-center">
-        <div className="hero-content flex flex-col gap-y-6 lg:basis-5/12 basis-full lg:pt-0 z-index-10">
+        <div className="hero-content flex flex-col gap-y-6 lg:basis-5/12 basis-full lg:pt-0 z-50">
           <h1 className="hero-text sm:text-4xl text-3xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-emerald-400 to-violet-400 bg-clip-text text-transparent" style={{lineHeight:1.2}}>
             Tokenised Real World Assets Opportunities
           </h1>
