@@ -15,7 +15,7 @@ export const Footer = () => {
             </div>
           </div>
           <div className="basis-8/12">
-            <div className="grid grid-cols-2 md:grid-cols-6 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-6 gap-12">
               {/* <div className="inline-flex  flex-col gap-y-6">
                 <p className="font-bold capitalize">about us</p>
                 <Link
