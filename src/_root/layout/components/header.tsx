@@ -57,7 +57,7 @@ export const Header = () => {
       <div
         className={`md:flex justify-between items-center w-full absolute top-full left-0 md:relative transition-all ${
           menuOpen ? "max-h-[800px]" : "max-h-0"
-        } md:max-h-none overflow-hidden bg-[#000000] md:bg-[initial] shadow-lg md:shadow-none z-10`}
+        } md:max-h-none overflow-hidden bg-[#000000] md:bg-[initial] shadow-lg md:shadow-none z-50`}
       >
         <div className="navigation flex flex-col md:flex-row gap-6 md:gap-8 p-4 md:p-0">
           <Link to={"/"}>Home</Link>
