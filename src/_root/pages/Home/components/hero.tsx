@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Hero = () => {
   return (
     <section className="hero px-4 lg:px-36 py-12 md:h-[80vh] relative pb-12 text-center lg:text-left">
@@ -8,7 +10,7 @@ export const Hero = () => {
           </h1>
           <div className="mt-6">
             <div className="mb-8">
-              <button className="btn-gradient">Join the waitlist</button>
+              <button className="btn-gradient"><Link to={"https://launch.fleamint.com/"}>Join the waitlist</Link></button>
             </div>
 
             <button className="underline capitalize text-emerald-400 hover:text-emerald-500">Check your status</button>
