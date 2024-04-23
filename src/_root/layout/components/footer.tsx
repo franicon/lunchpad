@@ -101,7 +101,7 @@ export const Footer = () => {
                 <p className="font-bold capitalize">follow us</p>
                 <div className="flex gap-6 items-center">
                   <Link
-                    to={"#"}
+                    to={"https://twitter.com/FleamintEco"}
                     className="capitalize text-gray-500 hover:text-white"
                   >
                     <img
@@ -110,7 +110,7 @@ export const Footer = () => {
                       className="md:h-8 md:w-8 w-6 h-6  hover:rotate-12"
                     />
                   </Link>
-                  <Link to={"#"} className="text-gray-500 hover:text-white">
+                  <Link to={"https://discord.com/invite/yD3B54a6sB"} className="text-gray-500 hover:text-white">
                     <img
                       src="/images/discord.png"
                       alt="discord-icon"
