@@ -60,7 +60,7 @@ export const Header = () => {
         } md:max-h-none overflow-hidden bg-[#000000] md:bg-[initial] shadow-lg md:shadow-none z-50`}
       >
         <div className="navigation flex flex-col md:flex-row gap-6 md:gap-8 p-4 md:p-0">
-          <Link to={"/https://home.fleamint.com/"}>Home</Link>
+          <Link to={"https://home.fleamint.com/"}>Home</Link>
           <Link to={"https://launch.fleamint.com/nft-pass"}>NFT Pass</Link>
           {/* <Link to={"#"}>Marketplace</Link>
           <Link to={"#"}>DEX</Link>
