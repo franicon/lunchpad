@@ -134,7 +134,7 @@ export const Footer = () => {
         </div>
       </div>
       <div className="px-4 py-8 border-t border-gray-900 text-center text-gray-500 text-sm">
-          <p>@copy; 2022 Fleamint. All right reserved. Powered by Fleamint Foundation DAO</p>
+          <p>@copy; 2024 Fleamint. All right reserved. Powered by Fleamint Foundation DAO</p>
       </div>
     </section>
   );
