@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const Pillars = () => {
   return (
     <section className="p-4 py-12 lg:p-24 bg-[radial-gradient(rgba(0,80,250,20%),transparent,transparent),url(/images/pattern.png)]">
