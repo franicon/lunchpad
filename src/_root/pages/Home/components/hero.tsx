@@ -10,7 +10,7 @@ export const Hero = () => {
           </h1>
           <div className="mt-6">
             <div className="mb-8">
-              <button className="btn-gradient"><Link to={"https://launch.fleamint.com/"}>Join the waitlist</Link></button>
+            <Link className="btn-gradient" to={"https://launch.fleamint.com/"}>Join the waitlist</Link>
             </div>
 
             <button className="underline capitalize text-emerald-400 hover:text-emerald-500"><Link to={"https://launch.fleamint.com/nft-pass"}>Check your status</Link></button>
