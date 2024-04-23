@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <section className="bg-gradient-to-b from-[#000000] to-[#050918]">
       <div className="px-4 py-12 lg:p-24 lg:w-full mx-auto">
-        <div className="flex flex-col lg:flex-row lg:gap-6 justify-between">
+        <div className="flex flex-col lg:flex-row lg:gap-6 ">
           <div className="basis-4/12">
             <div className="md:w-8/12">
               <img src="/images/footer-logo.png" alt="logo" />
