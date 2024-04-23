@@ -61,7 +61,7 @@ export const Pillars = () => {
           </div>
         </div>
         <div className="text-center">
-          <button className="btn-gradient">Join the waitlist</button>
+          <button className="btn-gradient"><Link to={"https://launch.fleamint.com/"}>Join the waitlist</Link></button>
         </div>
       </div>
     </section>
