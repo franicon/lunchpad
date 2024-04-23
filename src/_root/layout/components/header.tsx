@@ -61,7 +61,7 @@ export const Header = () => {
       >
         <div className="navigation flex flex-col md:flex-row gap-6 md:gap-8 p-4 md:p-0">
           <Link to={"/"}>Home</Link>
-          <Link to={"https://launch.fleamint.com/nft-pass"} target="_blank">NFT Pass</Link>
+          <Link to={"https://launch.fleamint.com/nft-pass"}>NFT Pass</Link>
           {/* <Link to={"#"}>Marketplace</Link>
           <Link to={"#"}>DEX</Link>
           <Link to={"#"}>Community</Link>
