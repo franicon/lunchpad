@@ -13,7 +13,7 @@ export const Hero = () => {
               <button className="btn-gradient"><Link to={"https://launch.fleamint.com/"}>Join the waitlist</Link></button>
             </div>
 
-            <button className="underline capitalize text-emerald-400 hover:text-emerald-500"><Link to={"https://launch.fleamint.com/"}>Check your status</Link>></></button>
+            <button className="underline capitalize text-emerald-400 hover:text-emerald-500"><Link to={"https://launch.fleamint.com/nft-pass"}>Check your status</Link>></></button>
           </div>
         </div>
         <div className="basis-5/12 order-first lg:order-last">
