@@ -11,14 +11,14 @@ const teams: TTeam[] = [
     previousTitle: "Prev Chairman of the Board FINXFLO",
     image: "/images/ceo.png",
   },
-  {
-    name: "ADAM LAMPREY",
-    title: "CHIEF OPERATION OFFICER",
-    image: "/images/coo.png",
-  },
+  // {
+  //   name: "ADAM LAMPREY",
+  //   title: "CHIEF OPERATION OFFICER",
+  //   image: "/images/coo.png",
+  // },
   {
     name: "ROGER JONES",
-    title: "CHIEF MARKETING OFFICER",
+    title: "HEAD OF MARKETING",
     image: "/images/cmo.png",
   },
   {
@@ -26,11 +26,11 @@ const teams: TTeam[] = [
     title: "PRODUCT MANAGER",
     image: "/images/pm.png",
   },
-  {
-    name: "TARIQ KARANOUH",
-    title: "CUSTOMER SEVICE",
-    image: "/images/cs.png",
-  },
+  // {
+  //   name: "TARIQ KARANOUH",
+  //   title: "CUSTOMER SEVICE",
+  //   image: "/images/cs.png",
+  // },
   {
     name: "RIZAL DEWANTARA",
     title: "GRAPHIC DESIGNER",
@@ -38,7 +38,7 @@ const teams: TTeam[] = [
   },
   {
     name: "SYED ASAD HUSSAIN",
-    title: "GRAPHIC DESIGNER",
+    title: "UI/UX DESIGNER",
     image: "/images/uiux.png",
   },
 ];
