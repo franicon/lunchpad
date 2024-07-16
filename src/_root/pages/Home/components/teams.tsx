@@ -31,16 +31,16 @@ const teams: TTeam[] = [
   //   title: "CUSTOMER SEVICE",
   //   image: "/images/cs.png",
   // },
-  {
-    name: "RIZAL DEWANTARA",
-    title: "GRAPHIC DESIGNER",
-    image: "/images/gd.png",
-  },
-  {
-    name: "SYED ASAD HUSSAIN",
-    title: "UI/UX DESIGNER",
-    image: "/images/uiux.png",
-  },
+  // {
+  //   name: "RIZAL DEWANTARA",
+  //   title: "GRAPHIC DESIGNER",
+  //   image: "/images/gd.png",
+  // },
+  // {
+  //   name: "SYED ASAD HUSSAIN",
+  //   title: "UI/UX DESIGNER",
+  //   image: "/images/uiux.png",
+  // },
 ];
 
 const Team = ({ team,size }: { team: TTeam ,size?:"large" | "small"}) => {
