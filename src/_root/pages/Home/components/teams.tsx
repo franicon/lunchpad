@@ -16,16 +16,16 @@ const teams: TTeam[] = [
   //   title: "CHIEF OPERATION OFFICER",
   //   image: "/images/coo.png",
   // },
-  {
-    name: "ROGER JONES",
-    title: "HEAD OF MARKETING",
-    image: "/images/cmo.png",
-  },
-  {
-    name: "ADEDAMOLA ADENIYI",
-    title: "PRODUCT MANAGER",
-    image: "/images/pm.png",
-  },
+  // {
+  //   name: "ROGER JONES",
+  //   title: "HEAD OF MARKETING",
+  //   image: "/images/cmo.png",
+  // },
+  // {
+  //   name: "ADEDAMOLA ADENIYI",
+  //   title: "PRODUCT MANAGER",
+  //   image: "/images/pm.png",
+  // },
   // {
   //   name: "TARIQ KARANOUH",
   //   title: "CUSTOMER SEVICE",
